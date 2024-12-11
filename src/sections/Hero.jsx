@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Form from '../components/Form';
 
 const Hero = () => {
 
@@ -22,13 +23,7 @@ const Hero = () => {
         </div>
       </div>
       <div className='w-1/2 md:px-12 bg-hero h-full py-24 flex flex-col items-center justify-center z-10'>
-        <form data-aos="fade-left" className='grid grid-cols-1 gap-4 w-3/4 backdrop-blur-lg bg-sky-900 bg-opacity-50 px-5 py-8 border-l-4 border-cyan-800 hover:border-cyan-600 transition-all ease-in-out   ' action="">
-          <input className='h-14 px-4 bg-transparent text-white border-b-2 border-sky-900 placeholder-slate-200 placeholder:text-xl text-xl' placeholder='Nombre' type="text" />
-          <input className='h-14 px-4 bg-transparent text-white border-b-2 border-sky-900 placeholder-slate-200 placeholder:text-xl text-xl' placeholder='Mail' type="text" />
-          <input className='h-14 px-4 bg-transparent text-white border-b-2 border-sky-900 placeholder-slate-200 placeholder:text-xl text-xl' placeholder='Negocio/Empresa' type="text" />
-          <input className='h-14 px-4 bg-transparent text-white border-b-2 border-sky-900 placeholder-slate-200 placeholder:text-xl text-xl' placeholder='Consulta' type="text" />
-          <button className='bg-sky-600 h-14 py-2 px-3 rounded text-white text-2xl font-medium hover:bg-sky-400 mt-6'>Solicita tu cotización</button>
-        </form>
+         <Form/>
       </div>
     </div>
 

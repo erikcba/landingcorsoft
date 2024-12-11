@@ -13,7 +13,7 @@ const Servicios = () => {
         <section id='servicios' data-aos="fade-up" className='bg-slate-900 py-24'>
             <div className='container mx-auto flex flex-col gap-20'>
                 <div className='flex flex-col items-center justify-center gap-20'>
-                    <h1 className='text-gray-100 text-center text-5xl font-bold border-l-8 border-cyan-600 bg-slate-800 leading-none pb-4 px-4 pt-3 shadow-lg select-none hover:border-cyan-400 transition-transform duration-300 ease-in-out'>Nuestros servicios</h1>
+                    <h1 className='text-gray-100 text-center text-5xl font-bold border-l-8 border-cyan-600 bg-slate-800 leading-none pb-4 px-4 pt-3 shadow-lg select-none hover:border-cyan-400 transition-all duration-300 ease-in-out'>Nuestros servicios</h1>
                 </div>
                 <div className='grid grid-cols-4 gap-4'>
                     <ServiciosCard icono={designIcon} titulo={'Diseño Web'} descripcion={'Un diseño moderno y una arquitectura optimizada garantizan que tu sitio destaque en cualquier dispositivo y proporcione una experiencia fluida a tus visitantes.'} />

@@ -12,8 +12,8 @@ const TrabajosCard = ({ titulo, icono, descripcion, link, bgClass }) => {
                     </div>
                     <div className='flex flex-col gap-4 justify-end items-start '>
                         <p id='cardDescription' className='text-gray-100 '>{descripcion}</p>
-                        <a className='flex flex-row items-center gap-2 justify-center' href={link}>
-                            <button className='bg-cyan-600 flex flex-row items-center rounded justify-center gap-3 text-gray-100 font-medium py-2 px-3'><box-icon name='link-external' size='sm' color='white' ></box-icon> Ver proyecto</button>
+                        <a className='flex flex-row items-center gap-2 justify-center' target='blank' href={link}>
+                            <button className='bg-cyan-600 flex flex-row items-center rounded justify-center gap-3 text-gray-100 font-medium py-2 px-3 hover:bg-cyan-400 transition-all duration-300 ease-in-out'><box-icon name='link-external' size='sm' color='white' ></box-icon> Ver proyecto</button>
                         </a>
                     </div>
                 </div>

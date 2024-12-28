@@ -12,6 +12,7 @@ export default {
         'besingular-web': "url('./assets/besingular-web.png')",
         'prevencion-parasitosis': "url('./assets/parasitosis-web.png')",
         'gyd-web': "url('./assets/gyd-web.png')",
+        'opercussion': "url('./assets/opercussion.jpg')",
       },
     },
   },

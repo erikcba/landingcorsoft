@@ -2,7 +2,7 @@ import React from 'react'
 
 const ServiciosCard = ({ titulo, descripcion, icono }) => {
     return (
-        <div className='group backdrop-blur-md bg-slate-800 bg-opacity-50 border-l-4 hover:border-cyan-600 hover:shadow-cyan-950  border-cyan-800 transition-all ease-in-out shadow-lg select-none p-5 flex flex-col items-center justify-start gap-4'>
+        <div className='group backdrop-blur-md bg-slate-800 bg-opacity-50 border rounded-md border-slate-700 hover:border-cyan-600 hover:shadow-cyan-950 transition-all ease-in-out shadow-lg select-none p-5 flex flex-col items-center justify-start gap-4'>
             <div className='flex flex-col items-center justify-center h-40 '>
                 <div className='group-hover:animate-pulse '>
                     {icono}

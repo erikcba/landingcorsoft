@@ -12,8 +12,8 @@ const Hero = () => {
     });
   }, []);
   return (
-    <div id='hero' className=" h-svh flex flex-row items-center justify-center">
-      <div className=' md:px-12 py-24 flex flex-col items-start justify-center gap-2 w-1/2 bg-gradient-to-t from-slate-900 from-0% via-slate-800 via-70% to-sky-800 to-100% h-full'>
+    <div id='hero' className=" h-svh flex flex-row items-center justify-center bg-gradient-to-t from-slate-900 from-0% via-slate-800 via-70% to-sky-800 to-100% ">
+      <div className=' md:px-12 py-24 flex flex-col items-start justify-center gap-2 w-1/2 h-full'>
         <h1 data-aos="fade-right" className='logo text-6xl font-bold text-white  w-full'>Aumenta tus ventas en línea</h1>
         <p data-aos="fade-right" className='logo text-3xl font-normal text-gray-300 mb-2'>Desarrollo web <span className='text-cyan-400'>a medida</span>  para transformar tu presencia online y llevar tu marca <span className='text-cyan-400'>al siguiente nivel</span> </p>
         <div data-aos="fade-up" className='flex flex-row gap-4 mt-4'>

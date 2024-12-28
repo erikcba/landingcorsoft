@@ -11,8 +11,8 @@ const Navbar = () => {
                 </a>
                 <ul className='xl:gap-10 flex flex-row'>
                     <a className='text-white text-lg font-medium hover:scale-110 transition-transform ease-in-out' href="#servicios">Servicios</a>
-                    <a className='text-white text-lg font-medium hover:scale-110 transition-transform ease-in-out' href="">Trabajos</a>
-                    <a className='text-white text-lg font-medium hover:scale-110 transition-transform ease-in-out' href="">Precios</a>
+                    <a className='text-white text-lg font-medium hover:scale-110 transition-transform ease-in-out' href="#trabajos">Trabajos</a>
+                    <a className='text-white text-lg font-medium hover:scale-110 transition-transform ease-in-out' href="#precios">Precios</a>
                 </ul>
             </div>
             <ul className='flex flex-row w-full items-center justify-center xl:gap-10'>

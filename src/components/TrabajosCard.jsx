@@ -5,8 +5,8 @@ const TrabajosCard = ({ titulo, icono, descripcion, link, bgClass }) => {
         <div className={`h-96 relative ${bgClass} bg-cover rounded-md overflow-hidden group bg-top select-none`}>
             <div className="absolute inset-0 rounded-md bg-gradient-to-b from-transparent to-black"></div>
             <div className='relative z-10 h-full w-full bg-black rounded-md bg-opacity-30 backdrop-blur-none group-hover:backdrop-blur-sm transition-all duration-500'>
-                <div className=' relative z-10 flex flex-col gap-4 h-full w-full items-start p-10 justify-end transition-all duration-500 '>
-                    <div className='flex flex-row items-center gap-2 justify-center  '>
+                <div className=' relative z-10 flex flex-col gap-4 h-full w-full items-start sm:p-10 p-5 justify-end transition-all duration-500 '>
+                    <div className='flex sm:flex-row flex-col items-start sm:items-center gap-2 justify-center  '>
                         {icono}
                         <h2 className='text-4xl font font-semibold text-white '>{titulo}</h2>
                     </div>

@@ -44,17 +44,17 @@ const Precios = () => {
     ]
 
     return (
-        <div id='precios' className='container mx-auto my-24 flex flex-row gap-4 items-center justify-center'>
+        <div id='precios' className='container mx-auto mt-0 sm:my-24 flex flex-row gap-4 items-center justify-center'>
             <div className='flex flex-col gap-14 w-full' >
-                <div className='flex flex-col items-center justify-center'>
-                    <h1 className='text-gray-100 text-center text-5xl font-bold leading-none pb-4 px-4 pt-3'>Nuestros Precios</h1>
-                    <p className='text-gray-400 text-2xl'>Elige el plan perfecto para tu presencia en linea</p>
+                <div className='flex flex-col items-center justify-center px-5'>
+                    <h1 className='text-gray-100 text-center text-3xl sm:text-5xl font-bold leading-none pb-4 px-4 pt-3'>Nuestros Precios</h1>
+                    <p className='text-gray-400 text-xl text-center sm:text-2xl'>Elige el plan perfecto para tu presencia en linea</p>
                 </div>
-                <div className='flex flex-row gap-6' >
+                <div className='flex sm:flex-row flex-col gap-4 sm:gap-6 px-5' >
                     {
                         planesPrecio.map((item, index) => (
                             <PreciosCard key={index} titulo={item.titulo} descripcion={item.descripcion} precio={item.precio} caracteristica={item.caracteristicas.map((caracteristica, index) => (
-                                <li key={index} className='text-zinc-200 leading-10 text-lg flex flex-row items-center gap-2 '><box-icon name='check' color='#0be61b' ></box-icon> {caracteristica}</li>
+                                <li key={index} className='text-zinc-200 leading-5 sm:leading-10 sm:pb-0 pb-5 text-md sm:text-lg flex flex-row items-center gap-2 '><box-icon name='check' color='#0be61b' ></box-icon> {caracteristica}</li>
                             ))} />
                         ))
                     }

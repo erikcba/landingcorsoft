@@ -45,7 +45,7 @@ const Precios = () => {
 
     return (
         <div id='precios' className='container mx-auto my-24 flex flex-row gap-4 items-center justify-center'>
-            <div className='flex flex-col gap-14 w-full' >
+            <div className='flex flex-col gap-20 w-full' >
                 <div className='flex flex-col items-center justify-center'>
                     <h1 className='text-gray-100 text-center text-5xl font-bold leading-none pb-4 px-4 pt-3'>Nuestros Precios</h1>
                     <p className='text-gray-400 text-2xl'>Elige el plan perfecto para tu presencia en linea</p>

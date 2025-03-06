@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './sections/Hero'
 import Trabajos from './sections/Trabajos'
 import Servicios from './sections/Servicios'
-import Precios from './sections/Precios'
+import Faq from './sections/Faq'
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Hero/>
       <Servicios/>
       <Trabajos/>
-      <Precios/>
+      <Faq/>
     </div>
   )
 }

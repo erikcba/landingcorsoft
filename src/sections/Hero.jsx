@@ -17,8 +17,8 @@ const Hero = () => {
         <h1 data-aos="fade-right" className='logo text-6xl font-bold text-white  w-full'>Aumenta tus ventas en línea</h1>
         <p data-aos="fade-right" className='logo text-3xl font-normal text-gray-300 mb-2'>Creamos estrategias de marketing y páginas web <span className='text-cyan-400'>a medida</span>  para transformar tu presencia online y llevar tu marca <span className='text-cyan-400'>al siguiente nivel</span> </p>
         <div data-aos="fade-up" className='flex flex-row gap-4 mt-4'>
-          <button className='bg-green-500 py-2 px-6 rounded-md font-semibold text-white text-xl flex flex-row items-center justify-center gap-2 hover:bg-green-600 transition-all duration-300 ease-in-out'>Solicitar Cotización <box-icon type='logo' name='whatsapp' color='white' size='md' ></box-icon> </button>
-          <button className='bg-slate-200 py-2 px-6 rounded-md font-medium text-gray-800 text-xl flex flex-row items-center justify-center gap-2 hover:bg-slate-300  transition-all duration-300 ease-in-out '>Ver trabajos<box-icon name='chevron-right'color="#1f2937 " size='sm' ></box-icon> </button>
+          <a className='bg-green-500 py-2 px-6 rounded-md font-semibold text-white text-xl flex flex-row items-center justify-center gap-2 hover:bg-green-600 transition-all duration-300 ease-in-out'>Solicitar Cotización <box-icon type='logo' name='whatsapp' color='white' size='md' ></box-icon> </a>
+          <a href='#trabajos' className='bg-slate-200 py-2 px-6 rounded-md font-medium text-gray-800 text-xl flex flex-row items-center justify-center gap-2 hover:bg-slate-300  transition-all duration-300 ease-in-out '>Ver trabajos<box-icon name='chevron-right'color="#1f2937 " size='sm' ></box-icon> </a>
         </div>
       </div>
       <div className='w-1/2 md:px-12 bg-hero h-full py-24 flex flex-col items-center justify-center z-10'>

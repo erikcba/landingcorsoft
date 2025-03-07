@@ -5,6 +5,7 @@ import Trabajos from './sections/Trabajos'
 import Servicios from './sections/Servicios'
 import Faq from './sections/Faq'
 import SubHero from './sections/SubHero'
+import Contacto from './sections/Contacto'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Servicios/>
       <Trabajos/>
       <Faq/>
+      <Contacto/>
     </div>
   )
 }

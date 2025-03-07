@@ -25,6 +25,13 @@ const Trabajos = () => {
           <TrabajosCard titulo={'Prevencion parasitosis intestinal'} icono={prevenIcon} bgClass='bg-prevencion-parasitosis' link={'https://prevencionparasitosisintestinal.com.ar/'} descripcion={'Sitio web para campaña medica con distintas secciones de informacion e integracion de redes'} />
           <TrabajosCard titulo={'Opercussion'} icono={operIcon} bgClass='bg-opercussion' link={'https://opercussion.com/'} descripcion={'Sitio web para banda de percusion con selector de idioma (Alemán, Inglés) reproductor de musica, noticias e integracion de redes sociales'} />
           <TrabajosCard titulo={'Arroyo Electromecanica'} icono={arroyoIcon} bgClass='bg-arroyo-web' link={'https://arroyoservice.com/'} descripcion={'Landing page para empresa de service electrodomesticos, con integracion de redes sociales y WhatsApp'} />
+          <TrabajosCard titulo={'Chillhop World '} icono={operIcon} bgClass='bg-chillhopworld' link={'https://arroyoservice.com/'} descripcion={'Sitio web de sello discografico, con sus ultimos lanzamientos y conexion con spotify para escuchar su playlist'} />
+          <div className='w-full h-96 border-2 border-dashed border-sky-500 rounded-md flex flex-col items-center justify-center gap-2'>
+            <box-icon name='user-pin' color="#0ea5e9" size="lg"></box-icon>
+            <h2 className='text-4xl font-semibold text-sky-500'>Tu negocio</h2>
+            <p className='text-gray-400 text-xl text-center px-4'>¡Vos también te podés sumar a nuestra lista de clientes que optaron por mejorar su presencia online!</p>
+            <button className='bg-sky-500 py-2 mt-6 px-3 rounded-lg text-white text-sm md:text-lg font-medium hover:bg-sky-400 flex items-center justify-center gap-2'>SUMATE <box-icon name='whatsapp' color="white" type='logo' ></box-icon></button>
+          </div>
         </div>
       </div>
     </div>

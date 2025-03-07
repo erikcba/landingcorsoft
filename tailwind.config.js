@@ -13,6 +13,7 @@ export default {
         'prevencion-parasitosis': "url('./assets/parasitosis-web.png')",
         'gyd-web': "url('./assets/gyd-web.png')",
         'opercussion': "url('./assets/opercussion.jpg')",
+        'chillhopworld': "url('./assets/chillhopImg.jpg')"
       },
     },
   },

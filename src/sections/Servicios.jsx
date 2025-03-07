@@ -25,7 +25,6 @@ const Servicios = () => {
                     <ServiciosCard icono={suportIcon} titulo={'Mantenimiento y Soporte Técnico'} descripcion={'Nos encargamos de que tu sitio web esté siempre en óptimas condiciones, con actualizaciones regulares de software, parches de seguridad y soluciones rápidas a problemas técnicos.'} />
                     <ServiciosCard icono={googleIcon} titulo={'Google Ads'} descripcion={'Campañas de búsqueda, display y shopping optimizadas para conversión.'} />
                     <ServiciosCard icono={metaIcon} titulo={'Meta Ads'} descripcion={'Anuncios segmentados que conectan con tu audiencia ideal.'} />
-                    
                 </div>
             </div>
 

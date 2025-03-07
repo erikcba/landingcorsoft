@@ -12,11 +12,11 @@ const Servicios = () => {
     
 
     return (
-        <section id='servicios' data-aos="fade-up" className='bg-slate-900 my-40'>
-            <div className='container mx-auto flex flex-col gap-20'>
+        <section id='servicios' data-aos="fade-up" className='bg-slate-900 md:my-40 my-20 px-6 md:px-0'>
+            <div className='container mx-auto flex flex-col md:gap-20 gap-12'>
                 <div className='flex flex-col items-center justify-center gap-5'>
-                    <h1 className='text-gray-100 text-center text-5xl font-bold leading-none px-4 pt-3'>Nuestros servicios</h1>
-                    <p className='text-gray-400 text-2xl' >Estrategias personalizadas para maximizar tu retorno de inversión</p>
+                    <h1 className='text-gray-100 text-center md:text-5xl text-4xl font-bold leading-none px-4 pt-3'>Nuestros servicios</h1>
+                    <p className='text-gray-400 text-xl text-center md:text-2xl' >Estrategias personalizadas para maximizar tu retorno de inversión</p>
                 </div>
                 <div className='grid md:grid-cols-3 gap-4  '>
                     <ServiciosCard icono={designIcon} titulo={'Diseño Web'} descripcion={'Un diseño moderno y una arquitectura optimizada garantizan que tu sitio destaque en cualquier dispositivo y proporcione una experiencia fluida a tus visitantes.'} />

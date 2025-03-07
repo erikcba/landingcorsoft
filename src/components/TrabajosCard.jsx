@@ -8,7 +8,7 @@ const TrabajosCard = ({ titulo, icono, descripcion, link, bgClass }) => {
                 <div className=' relative z-10 flex flex-col gap-4 h-full w-full items-start p-10 justify-end transition-all duration-500 '>
                     <div className='flex flex-row items-center gap-2 justify-center  '>
                         {icono}
-                        <h2 className='text-4xl font font-semibold text-white '>{titulo}</h2>
+                        <h2 className='md:text-4xl text-2xl font font-semibold text-white '>{titulo}</h2>
                     </div>
                     <div className='flex flex-col gap-4 justify-end items-start '>
                         <p id='cardDescription' className='text-gray-100 '>{descripcion}</p>

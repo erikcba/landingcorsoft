@@ -12,13 +12,13 @@ const Trabajos = () => {
   const arroyoIcon = <box-icon name='wrench' color='#29bbef' size='md'></box-icon>
 
   return (
-    <div id='trabajos' data-aos="fade-up" className='bg-gray-950 py-40'>
-      <div className='container mx-auto flex flex-col gap-20'>
+    <div id='trabajos' data-aos="fade-up" className='bg-gray-950 md:py-40 py-20'>
+      <div className='container mx-auto flex flex-col md:gap-20 gap-12 px-6 md:px-0'>
         <div className='flex flex-col items-center justify-center gap-5'>
-          <h1 className='text-gray-100 text-center text-5xl font-bold leading-none px-4 pt-3'>Trabajos realizados</h1>
-          <p className='text-gray-400 text-2xl' >Empresas que confiaron en nosotros</p>
+          <h1 className='text-gray-100 text-center md:text-5xl text-4xl font-bold leading-none px-4 pt-3'>Trabajos realizados</h1>
+          <p className='text-gray-400 md:text-2xl text-xl text-center' >Empresas que confiaron en nosotros</p>
         </div>
-        <div className='grid grid-cols-2 gap-6'>
+        <div className='grid md:grid-cols-2 grid-cols-1 gap-6'>
           <TrabajosCard titulo={'AORA Bella Vista'} icono={aoraIcon} bgClass='bg-aora-bella-vista' link={'https://aorabellavista.com/'} descripcion={'Sitio web moderno y sencillo para desarrollista inmobiliaria. Cuenta con integracion a WhatsApp y formulario de contacto'} />
           <TrabajosCard titulo={'G&D Consultoras'} icono={gydIcon} bgClass='bg-gyd-web' link={'https://gydconsultoras.com/'} descripcion={'Landing page para consultora de marketing minimalista y moderna. Posee integracion a WhatsApp y formulario de contacto con verificacion Captcha'} />
           <TrabajosCard titulo={'BeSingular'} icono={beIcon} bgClass='bg-besingular-web' link={'https://www.besingular.com.ar'} descripcion={'Sitio web para agencia publicitaria, con secciones de trabajos realizados, WhatsApp y formulario de contacto'} />

@@ -16,7 +16,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <ul className='flex flex-row w-1/2 md:w-full items-center justify-center xl:gap-10'>
-                <button className='bg-sky-500 py-2 px-3 rounded-lg text-white text-sm md:text-lg font-medium hover:bg-sky-400'>CONTACTANOS</button>
+                <a href='https://wa.me/5493518192829' target='_blank' rel='noreferrer'  className='bg-sky-500 py-2 px-3 rounded-lg text-white text-sm md:text-lg font-medium hover:bg-sky-400'>CONTACTANOS</a>
             </ul>
         </nav>
     );

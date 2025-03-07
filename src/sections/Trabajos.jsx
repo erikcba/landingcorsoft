@@ -30,7 +30,7 @@ const Trabajos = () => {
             <box-icon name='user-pin' color="#0ea5e9" size="lg"></box-icon>
             <h2 className='text-4xl font-semibold text-sky-500'>Tu negocio</h2>
             <p className='text-gray-400 text-xl text-center px-4'>¡Vos también te podés sumar a nuestra lista de clientes que optaron por mejorar su presencia online!</p>
-            <button className='bg-sky-500 py-2 mt-6 px-3 rounded-lg text-white text-sm md:text-lg font-medium hover:bg-sky-400 flex items-center justify-center gap-2'>SUMATE <box-icon name='whatsapp' color="white" type='logo' ></box-icon></button>
+            <a href='https://wa.me/5493518192829' target='_blank' rel='noreferrer' className='bg-sky-500 py-2 mt-6 px-3 rounded-lg text-white text-sm md:text-lg font-medium hover:bg-sky-400 flex items-center justify-center gap-2'>SUMATE <box-icon name='whatsapp' color="white" type='logo' ></box-icon></a>
           </div>
         </div>
       </div>

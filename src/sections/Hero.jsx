@@ -24,7 +24,7 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      <div className='w-full md:w-1/2 md:px-12 px-6 md:bg-hero bg-inherit hidden h-full py-6 md:py-24 md:flex flex-col items-center justify-center z-10'>
+      <div className='w-full md:w-1/2 md:px-12 px-6 bg-hero  hidden h-full py-6 md:py-24 md:flex flex-col items-center justify-center z-10'>
         <Form />
       </div>
     </div>

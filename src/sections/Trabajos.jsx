@@ -12,7 +12,7 @@ const Trabajos = () => {
   const arroyoIcon = <box-icon name='wrench' color='#29bbef' size='md'></box-icon>
 
   return (
-    <div id='trabajos' data-aos="fade-up" className='bg-gray-950 mb-24 py-32'>
+    <div id='trabajos' data-aos="fade-up" className='bg-gray-950 py-40'>
       <div className='container mx-auto flex flex-col gap-20'>
         <div className='flex flex-col items-center justify-center gap-5'>
           <h1 className='text-gray-100 text-center text-5xl font-bold leading-none px-4 pt-3'>Trabajos realizados</h1>

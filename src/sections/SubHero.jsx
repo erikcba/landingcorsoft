@@ -5,7 +5,7 @@ import mktImg from '../assets/marketing-img.jpg'
 
 const SubHero = () => {
     return (
-        <div className='py-32 flex flex-col items-center justify-center bg-slate-950'>
+        <div className='py-40 flex flex-col items-center justify-center bg-slate-950'>
             <div className='container mx-auto flex flex-col items-center justify-center gap-20'>
                 <div className='flex flex-row items-center justify-center gap-5'>
                     <div className='w-1/2'>
@@ -19,10 +19,10 @@ const SubHero = () => {
                             </div>
                         </div>
                         <ul className='flex flex-col items-start justify-center gap-5 pt-5'>
-                            <li className='text-gray-300 text-xl text-start flex flex-row items-center justify-center gap-2'><box-icon name='check' color='#0be61b' ></box-icon> Aumenta tu visibilidad online y alcanza a más clientes potenciales</li>
-                            <li className='text-gray-300 text-xl text-start flex flex-row items-center justify-center gap-2'><box-icon name='check' color='#0be61b' ></box-icon> Convierte visitantes en clientes con estrategias de conversión probadas</li>
-                            <li className='text-gray-300 text-xl text-start flex flex-row items-center justify-center gap-2'><box-icon name='check' color='#0be61b' ></box-icon> Fideliza a tu audiencia con comunicaciones personalizadas</li>
-                            <li className='text-gray-300 text-xl text-start flex flex-row items-center justify-center gap-2'><box-icon name='check' color='#0be61b' ></box-icon> Optimiza tu inversión publicitaria con decisiones basadas en datos</li>
+                            <li className='text-gray-100 text-xl text-start flex flex-row items-center justify-center gap-2'><span className='rounded-full leading-none bg-sky-800'> <box-icon name='check' color='#3bc1e8' ></box-icon></span> Aumenta tu visibilidad online y alcanza a más clientes potenciales</li>
+                            <li className='text-gray-100 text-xl text-start flex flex-row items-center justify-center gap-2'><span className='rounded-full leading-none bg-sky-800'> <box-icon name='check' color='#3bc1e8' ></box-icon></span> Convierte visitantes en clientes con estrategias de conversión probadas</li>
+                            <li className='text-gray-100 text-xl text-start flex flex-row items-center justify-center gap-2'><span className='rounded-full leading-none bg-sky-800'> <box-icon name='check' color='#3bc1e8' ></box-icon></span> Fideliza a tu audiencia con comunicaciones personalizadas</li>
+                            <li className='text-gray-100 text-xl text-start flex flex-row items-center justify-center gap-2'><span className='rounded-full leading-none bg-sky-800'> <box-icon name='check' color='#3bc1e8' ></box-icon></span> Optimiza tu inversión publicitaria con decisiones basadas en datos</li>
                         </ul>
                     </div>
                     <div className='w-1/2'>

@@ -24,7 +24,7 @@ const Faq = () => {
     ]
 
     return (
-        <div id='faq' className='container mx-auto md:my-40 py-20 flex flex-col md:gap-20 gap-12 items-center justify-center px-6 md:px-0'>
+        <div id='faq' className='container mx-auto md:py-40 py-20 flex flex-col md:gap-20 gap-12 items-center justify-center px-6 md:px-0'>
             <div className='flex flex-col items-center justify-center'>
                 <h1 className='text-gray-100 text-center md:text-5xl text-4xl font-bold leading-none pb-4 px-4'>Preguntas Frecuentes</h1>
                 <p className='text-gray-400 md:text-2xl text-xl'>Resuelve tus dudas en esta sección</p>

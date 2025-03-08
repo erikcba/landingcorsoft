@@ -6,6 +6,7 @@ import Servicios from './sections/Servicios'
 import Faq from './sections/Faq'
 import SubHero from './sections/SubHero'
 import Contacto from './sections/Contacto'
+import Footer from './sections/Footer'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <Trabajos/>
       <Faq/>
       <Contacto/>
+      <Footer/>
     </div>
   )
 }

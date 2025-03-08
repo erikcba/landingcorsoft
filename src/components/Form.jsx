@@ -27,7 +27,7 @@ const Form = () => {
                 <input onChange={e => setPhone(e.target.value)} required className='h-12 px-4 bg-transparent rounded-md text-gray-800 border border-sky-300 placeholder-slate-200 placeholder:text-xl text-xl focus:outline-offset-4 focus:outline-sky-500' type="text" />
                 <label className='text-sky-900 font-semibold' htmlFor="consulta">Consulta</label>
                 <textarea onChange={e => setConsulta(e.target.value)} required  className='py-1 px-2 bg-transparent rounded-md text-gray-800 border border-sky-300 placeholder-slate-200 placeholder:text-xl text-xl focus:outline-offset-4 focus:outline-sky-500' type="text" />
-                <button className='bg-sky-600 h-14 py-2 px-3 rounded text-white text-2xl font-medium hover:bg-sky-400 mt-6 transition-all ease-in-out duration-300 '>Solicita tu cotización</button>
+                <button className='bg-sky-600 h-14 py-2 px-3 rounded text-white md:text-2xl text-xl font-medium hover:bg-sky-400 mt-6 transition-all ease-in-out duration-300 '>Solicita tu cotización</button>
             </form>
         </>
     )

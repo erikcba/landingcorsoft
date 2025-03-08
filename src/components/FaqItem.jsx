@@ -6,8 +6,8 @@ const FaqItem = ({ pregunta, respuesta }) => {
     setShow(!show);
   };
 
-  const arrowDown = <box-icon name="chevron-down" color="gray" size="lg"></box-icon>;
-  const arrowUp = <box-icon name="chevron-up" color="gray" size="lg"></box-icon>;
+  const arrowDown = <box-icon name="chevron-down" color="white" size="lg"></box-icon>;
+  const arrowUp = <box-icon name="chevron-up" color="white" size="lg"></box-icon>;
 
   return (
     <li
